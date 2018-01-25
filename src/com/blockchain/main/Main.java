@@ -24,9 +24,9 @@ public class Main {
 		
 		// Testing Proof of Work ... 
 		logger.info("Mining block 1...");
-		blockChain.addBlock(new Block(1, "", new Date().getTime(), new BlockData("S", 25)));
+		blockChain.addBlock(new Block(1, "", System.currentTimeMillis(), new BlockData("S", 25)));
 		logger.info("Mining block 2...");
-		blockChain.addBlock(new Block(2, "", new Date().getTime(), new BlockData("SA", 25)));
+		blockChain.addBlock(new Block(2, "", System.currentTimeMillis(), new BlockData("SA", 25)));
 
 	}
 }
