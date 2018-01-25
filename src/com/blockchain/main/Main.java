@@ -1,6 +1,5 @@
 package com.blockchain.main;
 
-import java.util.Date;
 import java.util.logging.Logger;
 
 import com.blockchain.block.Block;
